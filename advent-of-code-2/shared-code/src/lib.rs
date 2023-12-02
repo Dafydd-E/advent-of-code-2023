@@ -15,7 +15,7 @@ lazy_static!{
 }
 
 pub struct Balls {
-    id: String,
+    pub id: String,
     pub colour: Regex,
     pub max_count: i32
 }

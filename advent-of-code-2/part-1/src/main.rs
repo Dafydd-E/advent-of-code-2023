@@ -6,7 +6,7 @@ fn main() {
 
 fn get_sum() {
     let mut sum = 0;
-    for line in get_file_lines("E:/workspaces/advent-of-code-2023/advent-of-code-2/src/input.txt") {
+    for line in get_file_lines("E:/workspaces/advent-of-code-2023/advent-of-code-2/input.txt") {
         if let Ok(some_line) = line {
             println!("Processing {}", some_line);
             let result = get_count_from_possible_game(some_line);

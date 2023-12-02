@@ -3,7 +3,7 @@ use shared_code::{ARRAY, get_file_lines, get_games_iter};
 
 fn main() {
     let mut sum = 0;
-    for line in get_file_lines(Path::new("E:/workspaces/advent-of-code-2023/advent-of-code-2/src/input.txt")) {
+    for line in get_file_lines(Path::new("E:/workspaces/advent-of-code-2023/advent-of-code-2/input.txt")) {
             if let Ok(some_line) = line {
                 println!("Processing {}", some_line);
                 let result = get_minimum_balls(some_line);
