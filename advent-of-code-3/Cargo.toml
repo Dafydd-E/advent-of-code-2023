@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "part-1",
+    "part-2",
+    "shared-code"
+]
